@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA5 RP Promo - Все сервера</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="hero">
+    <div class="wrapper">
+        <div class="logo"><img src="image/logo.png" alt="GTA5 RP"></div>
+        <div class="content">
+            <h1>ПРОМОКОДЫ<br>ГТА 5 РП 2026</h1>
+            <p>Лучший и актуальный промокод для быстрого старта на серверах GTA5RP</p>
+            <a href="#" class="promo-btn" id="promo-click-btn">Секретный промокод</a>
+            <div class="bonuses">
+                <div class="bonus-item"><h2>Бонусы старта</h2><p>💰 До 300 000$ на старте</p></div>
+                <div class="bonus-item"><h2>Преимущества</h2><p>⭐ VIP-статус для новичков</p></div>
+                <div class="bonus-item"><h2>Стартовые плюсы</h2><p>🚀 x2 опыт и зарплата</p></div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="image/hero.png" alt="Characters">
+        </div>
+    </div>
+</section>
+
+<section class="how-to-play">
+    <div class="wrapper">
+        <h2 class="how-title">КАК НАЧАТЬ ИГРАТЬ</h2>
+
+        <div class="steps">
+            <div class="step-card step-card-first">
+                <div class="step-content">
+                    <div class="step-number">01</div>
+                    <div class="step-title">УСТАНОВИТЕ<br>ЛАУНЧЕР RAGE MP</div>
+                    <div class="step-subtitle">При помощи лаунчера заходите на сервера GTA 5 RP</div>
+                </div>
+                <div class="step-bottom">
+                    <a href="#" class="step-btn">Скачать лаунчер</a>
+                    <img src="image/step-1.png" alt="Characters">
+                </div>
+            </div>
+
+            <div class="step-card step-card-no-btn">
+                <div class="step-content">
+                    <div class="step-number">02</div>
+                    <div class="step-title">ВЫБЕРИТЕ СЕРВЕР И НАЧНИТЕ ИГРАТЬ</div>
+                    <div class="step-subtitle">GTA5RP - один клик и вы уже в игре.</div>
+                </div>
+                <div class="step-bottom">
+                    <img src="image/step-2.png" alt="Server">
+                </div>
+            </div>
+
+            <div class="step-card step-card-promo">
+                <div class="step-content">
+                    <div class="step-number">03</div>
+                    <div class="step-title">ВВЕДИТЕ ПРОМОКОД<br>В ЧАТЕ ИГЙ</div>
+                    
+                    <div class="step-bonus-info">
+                        Активирует лучшие бонусы!<br>работает на всех серверах
+                    </div>
+
+                    <div class="step-subtitle">Для быстрого старта просто напишите в чат:</div>
+                    
+                    <div class="promo-field">/promo WAR</div>
+                </div>
+                <div class="step-bottom">
+                    <img src="image/step-3.png" alt="Police">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="servers">
+    <div class="wrapper">
+        <div class="servers-header">
+            <h2 class="servers-title">ВСЕ СЕРВЕРА GTA5RP</h2>
+            <p class="servers-subtitle">23 официальных сервера. Онлайн обновляется в реальном времени.</p>
+        </div>
+        <div class="servers-grid" id="serversGrid"></div>
+    </div>
+</section>
+
+<div id="promoModal" class="modal-overlay">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-avatar"><img id="modalAvatarImg" src="" alt="Avatar"></div>
+        <h2 id="modalBloggerName">Имя Блогера</h2>
+        <p>Официальный партнер сервера</p>
+        <a id="modalChannelLink" href="" target="_blank" class="modal-btn">Перейти на канал</a>
+    </div>
+</div>
+<section class="faq">
+    <div class="wrapper">
+        <div class="faq-container">
+            <h2 class="faq-main-title">GTA5 RP СЕРВЕРА</h2>
+            <p class="faq-main-subtitle">
+                это 23 уникальных мира для ролевой игры в GTA 5. Выбирай сервер, заходи с бонусами и активируй, промокод WAR для быстрого старта.
+            </p>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span class="faq-arrow"></span>
+                    <h3>Как выбрать сервер GTA5RP.</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Выбирайте сервер, где играют ваши друзья или медиа-партнеры, за которыми вам интересно наблюдать. Все 23 сервера предлагают идентичный функционал, но отличаются комьюнити и экономикой.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span class="faq-arrow"></span>
+                    <h3>Где вводить промокод</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Промокод вводится при регистрации персонажа или в самой игре через консоль. Нажмите F10 -> Настройки -> Аккаунт -> Промокод и введите <b>WAR</b> для получения бонусов.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
